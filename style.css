@@ -1,14 +1,36 @@
 .navbar-nav {
-    --bs-nav-link-color: white;
-    --bs-nav-link-hover-color: #ffc107;
+  --bs-nav-link-color: white;
+  --bs-nav-link-hover-color: #ffc107;
 }
 
 .bg-body-tertiary {
-    --bs-bg-opacity: 1;
-    background-color: black !important;
+  --bs-bg-opacity: 1;
+  background-color: black !important;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-    color: #ffc107;
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #ffc107;
+}
+.nosso-footer {
+  background-color: black;
+}
+hr {
+  height: 2px;
+  background-color: rgb(236, 236, 36) !important;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  width: 100%;
+  margin: 50px;
+  opacity: 20;
 }
 
+.footer_help {
+  margin: 5px 100px;
+
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.container {
+  color: white;
+}
