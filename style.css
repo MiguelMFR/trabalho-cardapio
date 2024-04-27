@@ -1,14 +1,35 @@
-.navbar-nav {
-    --bs-nav-link-color: white;
-    --bs-nav-link-hover-color: #ffc107;
+.container-icones img {
+    width: 20px; /* Adjust the size of the icons */
+    height: 20px; /* Adjust the size of the icons */
+    margin-left: 20px;
 }
 
-.bg-body-tertiary {
-    --bs-bg-opacity: 1;
-    background-color: black !important;
+.destaque-logo {
+    color: #FF9F0D;
+    align-items: center;
+
+ 
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-    color: #ffc107;
+.nav-link.active {
+    color: #FF9F0D !important;
+
 }
 
+.container-imagem-header h1 {
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%, -230%); /* Centralizar o elemento */
+    color: white; /* Cor do texto */
+}
+
+
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo semi-transparente para as legendas */
+    color: #ffffff; /* Cor do texto das legendas */
+    padding: 10px; /* Espaçamento interno das legendas */
+}
