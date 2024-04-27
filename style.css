@@ -1,0 +1,14 @@
+.navbar-nav {
+    --bs-nav-link-color: white;
+    --bs-nav-link-hover-color: #ffc107;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: black !important;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #ffc107;
+}
+
