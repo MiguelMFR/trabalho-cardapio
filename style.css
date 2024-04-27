@@ -7,9 +7,29 @@
 .destaque-logo {
     color: #FF9F0D;
     align-items: center;
+
+ 
 }
 
 .nav-link.active {
     color: #FF9F0D !important;
 
+}
+
+.container-imagem-header h1 {
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%, -230%); /* Centralizar o elemento */
+    color: white; /* Cor do texto */
+}
+
+
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo semi-transparente para as legendas */
+    color: #ffffff; /* Cor do texto das legendas */
+    padding: 10px; /* Espaçamento interno das legendas */
 }
