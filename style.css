@@ -31,7 +31,7 @@
 
 
 .list-group {
-    height: 100%;
+    height: 500px;
 }
 
 .container-imagem-header h1 {
@@ -45,6 +45,10 @@
    
     margin-left: 0 !important;
     padding: 0;
+}
+
+.col-md-6 {
+  overflow: scroll;
 }
 
 .carousel-caption {
